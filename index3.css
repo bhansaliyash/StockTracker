@@ -1,0 +1,144 @@
+body{
+	background-color: #1ab188;
+	text-align: center;
+	
+}
+
+
+
+
+
+.signout{
+	width: 100%;
+	float: right;
+	
+}
+
+.signout button{
+
+text-align: center;
+	border: 0;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 0;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #D7263D;
+  width: 100%;
+     
+  
+}
+
+.tpl{
+	float: left;
+	width: 100%;
+}
+
+
+
+.tpl li{
+	list-style: none;
+	float: left;
+	width:100%;
+	padding:0;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 20px;
+ 	font-family: 'Quicksand', sans-serif;
+ 	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.tpl ul{
+	margin:0;
+	padding:0;
+	float: left;
+	width:40%;
+}
+
+.stock{
+	
+	padding-top: 30px; 
+
+}
+
+
+.stock li{
+	
+	float: left;
+	list-style: none;
+	width: 19%;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+#ulist{
+
+	padding:0;
+	margin:0;
+	
+
+	display: block;
+	
+	height: auto;
+ 	font-size: 20px;
+ 	font-family: 'Quicksand', sans-serif;
+ 	font-weight: 900;
+  text-align: center;
+}
+
+#ulist #refresh{
+	width:3.5%;
+}
+
+
+#ulist li #refresh{
+	width:3.5%;
+}
+
+
+#list{
+	padding:0;
+	margin:0;
+	display: block;
+
+	height: auto;
+ 	font-size: 20px;
+ 	font-family: 'Quicksand', sans-serif;
+ 	font-weight: 500;
+  text-align: center;
+}
+
+#list button{
+	 background:url(data:image/png;base64,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);
+  border:none;
+  
+  	
+}
+
+#list li:nth-child(6n) {
+    width:3.5%;   
+}
+
+ .add h3,input{
+ 	margin-top: 10px;
+	float: right;
+	height: 2em;
+}
+
+
+
+#buttonadd{
+	margin-top: 20px;
+	float: right;
+	cursor: pointer;
+	background-color: #D7263D; 
+	border-radius: 100%;
+	border-color: #FFF;
+	color: #FFF;
+    width:65px;
+    height:65px;
+    
+}
